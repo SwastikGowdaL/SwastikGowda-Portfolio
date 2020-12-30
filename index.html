@@ -66,6 +66,46 @@
 </head>
 
 <body>
+  
+  <!-- ======= stackwhatzbot ======= -->
+
+  <script>
+            var url = 'https://stackwhats.com/assets/js/WhatsAppWidget.js';
+            var s = document.createElement('script');
+            s.type = 'text/javascript';
+            s.async = true;
+            s.src = url;
+            var options = {'enabled':true, 'chatButtonSetting': {
+            'backgroundColor': '#4dc247',
+            'ctaText': '',
+            'borderRadius': '25',
+            'marginLeft': '0',
+            'marginBottom': '50',
+            'marginRight': '50',
+            'position': 'right'
+            }, "brandSetting":{
+                "brandName":"Swastik",
+                "email":"swastik7999@gmail.com",
+                "brandSubTitle":"Will reply asap!!!",
+                "brandImg":"https://stackwhats.com/assets/img/stackwhats_logo.png",
+                "welcomeText":"Hey, there! \nHow can I help you?",
+                "backgroundColor":"#0a5f54",
+                "ctaText":"Start Chat",
+                "borderRadius":"25",
+                "autoShow":false,
+                "phoneNumber":"917760059852"
+                }
+            };
+            s.onload = function() {
+            CreateWhatsappChatWidget(options);
+            };
+            var x = document.getElementsByTagName('script')[0];
+            x.parentNode.insertBefore(s, x);
+            </script>
+  
+  
+<!-- ======= stackwhatzbot-end ======= -->
+  
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top">
     <div class="container-fluid">
