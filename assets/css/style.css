@@ -104,8 +104,8 @@ li{
 
 .list-inline-item img{
 
-    -webkit-filter: grayscale(99%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(99%);
+/*     -webkit-filter: grayscale(99%); /* Safari 6.0 - 9.0 */ */
+/*     filter: grayscale(99%); */
   margin: 0%;
   padding: 0%;
 opacity: 95%;
@@ -113,8 +113,8 @@ opacity: 95%;
 
 .list-inline-item svg{
 
-  -webkit-filter: grayscale(99%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(99%);
+/*   -webkit-filter: grayscale(99%); /* Safari 6.0 - 9.0 */ */
+/*   filter: grayscale(99%); */
 margin: 0%;
 padding: 0%;
 opacity: 95%;
