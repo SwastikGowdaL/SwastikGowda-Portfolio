@@ -201,4 +201,7 @@
     aos_init();
   });
 
+  document.getElementByID("mega").click();
+
+
 })(jQuery);
