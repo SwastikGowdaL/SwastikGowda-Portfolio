@@ -768,13 +768,6 @@
         });
       }
 
-      setTimeout(() => {
-        // const mega = document.getElementByID("mega");
-        // mega.click();
-        alert("hello");
-      }, 1000);
-
-
     </script>
 
     <!-- ======= Resume Section ======= -->
@@ -830,7 +823,7 @@
           </p>
         </div>
 
-        <div class="row" data-aos="fade-up">
+        <div class="row" >
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
               <li>Project scale :</li>
@@ -842,7 +835,7 @@
           </div>
         </div>
 
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row portfolio-container" >
 
           <div data-tilt class="col-lg-4 col-md-6 portfolio-item filter-app">
             <a style="color: black" href="https://geek-circle.herokuapp.com/index" target="_blank">
@@ -1114,6 +1107,14 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+<script>
+   setTimeout(() => {
+        const mega = document.getElementByID("mega");
+        mega.click();
+      }, 2000);
+</script>
+
 </body>
 
 </html>
